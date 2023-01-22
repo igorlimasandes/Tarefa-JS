@@ -1,0 +1,207 @@
+#main {
+
+width: 100%;
+height: 100vh;
+
+}
+
+.container {
+
+background-color: #003fa8;
+width: 600px;
+height: 600px;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 20px;
+box-shadow: 0px 0px 10px #0000ff;
+
+}
+
+.top {
+
+position: absolute;
+width: 100%;
+top: 15%;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+
+}
+
+.addTarefa {
+
+background-color: #1554bd;
+border: 1px solid black;
+width: 80%;
+height: 40px;
+border-radius: 10px;
+padding-left: 10px;
+color: white;
+font-family: 'sofia_sans';
+
+}
+
+.btnAddTarefa {
+
+background-color: #1554bd;
+width: 50%;
+height: 50px;
+border-radius: 20px;
+border: 1px solid black;
+
+}
+
+.listTarefas {
+
+list-style-type: none;
+position: absolute;
+width: 100%;
+top: 40%;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.listItem {
+
+background-color: #1554bd;
+width: 90%;
+height: 50px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 10px;
+margin: 10px 0px;
+font-family: 'sofia_sans';
+
+}
+
+.containerActions {
+
+width: 74px;
+height: 32px;
+display: flex;
+justify-content: space-between;
+
+}
+
+button {
+
+font-size: 1.2em;
+font-family: 'sofia_sans';
+    
+}
+
+button:hover {
+
+background-color: white;
+cursor: pointer;
+
+}
+
+.actionEdit {
+
+width: 32px;
+height: 100%;
+background-image: url(../imgs/edit.svg);
+background-color: transparent;
+background-size: 20px 20px;
+background-position: center center;
+background-repeat: no-repeat;
+border: 1px solid black;
+background-color: #003fa8;
+border-radius: 50%;
+
+}
+
+.actionDelete {
+
+width: 32px;
+height: 100%;
+background-image: url(../imgs/delete.svg);
+background-color: transparent;
+background-size: 20px 20px;
+background-position: center center;
+background-repeat: no-repeat;
+border: 1px solid black;
+background-color: #003fa8;
+border-radius: 50%;
+
+}
+
+
+.backgroundEdit {
+
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 90%;
+
+}
+
+.boxEdit {
+
+width: 600px;
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #003fa8;
+border-radius: 20px;
+gap: 10px;
+
+}
+
+.closeEdit {
+
+background-image: url(../imgs/close.svg);
+background-position: center center;
+background-size: 25px 25px;
+width: 30px;
+height: 30px;
+background-color: #003fa8;
+position: absolute;
+top: -10px;
+right: -10px;
+border-radius: 50%;
+
+}
+
+.inputEdit {
+
+background-color: #1554bd;
+border: 1px solid black;
+width: 80%;
+height: 40px;
+border-radius: 10px;
+padding-left: 10px;
+color: white;
+
+}
+
+.btnEdit {
+
+background-color: #1554bd;
+width: 50%;
+height: 50px;
+border-radius: 20px;
+border: 1px solid black;
+
+}
