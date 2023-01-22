@@ -89,6 +89,9 @@ body.appendChild(boxEdit)
 
 let closeEdit = document.createElement('button')
 closeEdit.classList.add('closeEdit')
+let titleEdit = document.createElement('h1')
+titleEdit.classList.add('titleEdit')
+titleEdit.innerHTML = 'Editar'
 let inputEdit = document.createElement('input')
 inputEdit.setAttribute('maxlength', '50')
 inputEdit.classList.add('inputEdit')
@@ -98,6 +101,7 @@ btnEdit.classList.add('btnEdit')
 btnEdit.textContent = 'Salvar'
 
 boxEdit.appendChild(closeEdit)
+boxEdit.appendChild(titleEdit)
 boxEdit.appendChild(inputEdit)
 boxEdit.appendChild(btnEdit)
 

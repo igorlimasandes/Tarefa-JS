@@ -7,7 +7,7 @@ height: 100vh;
 
 .container {
 
-background-color: #003fa8;
+background-color: var(--secundario);
 width: 600px;
 height: 600px;
 position: relative;
@@ -15,7 +15,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 border-radius: 20px;
-box-shadow: 0px 0px 10px #0000ff;
+box-shadow: 0px 0px 5px var(--secundario);
 
 }
 
@@ -35,20 +35,19 @@ gap: 15px;
 
 .addTarefa {
 
-background-color: #1554bd;
+background-color: var(--primario);
 border: 1px solid black;
 width: 80%;
 height: 40px;
 border-radius: 10px;
 padding-left: 10px;
-color: white;
 font-family: 'sofia_sans';
 
 }
 
 .btnAddTarefa {
 
-background-color: #1554bd;
+background-color: var(--primario);
 width: 50%;
 height: 50px;
 border-radius: 20px;
@@ -72,7 +71,7 @@ align-items: center;
 
 .listItem {
 
-background-color: #1554bd;
+background-color: var(--primario);
 width: 90%;
 height: 50px;
 border-radius: 10px;
@@ -94,20 +93,6 @@ justify-content: space-between;
 
 }
 
-button {
-
-font-size: 1.2em;
-font-family: 'sofia_sans';
-    
-}
-
-button:hover {
-
-background-color: white;
-cursor: pointer;
-
-}
-
 .actionEdit {
 
 width: 32px;
@@ -118,7 +103,7 @@ background-size: 20px 20px;
 background-position: center center;
 background-repeat: no-repeat;
 border: 1px solid black;
-background-color: #003fa8;
+background-color: var(--secundario);
 border-radius: 50%;
 
 }
@@ -133,7 +118,7 @@ background-size: 20px 20px;
 background-position: center center;
 background-repeat: no-repeat;
 border: 1px solid black;
-background-color: #003fa8;
+background-color: var(--secundario);
 border-radius: 50%;
 
 }
@@ -153,8 +138,8 @@ opacity: 90%;
 
 .boxEdit {
 
-width: 600px;
-height: 600px;
+width: 300px;
+height: 400px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -163,7 +148,8 @@ position: fixed;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-background-color: #003fa8;
+background-color: var(--secundario);
+border: 1px solid black;
 border-radius: 20px;
 gap: 10px;
 
@@ -176,29 +162,37 @@ background-position: center center;
 background-size: 25px 25px;
 width: 30px;
 height: 30px;
-background-color: #003fa8;
+background-color: var(--secundario);
 position: absolute;
 top: -10px;
 right: -10px;
 border-radius: 50%;
+border: 1px solid black;
+
+}
+
+.titleEdit {
+
+font-family: 'sofia_sans';
+position: absolute;
+top: 50px;
 
 }
 
 .inputEdit {
 
-background-color: #1554bd;
+background-color: var(--primario);
 border: 1px solid black;
 width: 80%;
 height: 40px;
 border-radius: 10px;
 padding-left: 10px;
-color: white;
 
 }
 
 .btnEdit {
 
-background-color: #1554bd;
+background-color: var(--primario);
 width: 50%;
 height: 50px;
 border-radius: 20px;
