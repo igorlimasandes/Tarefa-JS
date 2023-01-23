@@ -199,3 +199,28 @@ border-radius: 20px;
 border: 1px solid black;
 
 }
+
+@media (max-width: 650px) {
+    
+.container {
+
+background-color: var(--secundario);
+width: 100%;
+height: 100%;
+
+}
+
+.textTarefa {
+
+overflow-x: scroll;
+width: 70%;
+
+}
+
+.listItem {
+
+font-size: 0.8em;
+
+}
+    
+}
